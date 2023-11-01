@@ -1,10 +1,3 @@
-//
-//  Binary-DecimalConversions.c
-//  Binary-DecimalConversions
-//
-//  Created by Luigi Meola on 01/11/23.
-//
-
 #include "Binary-DecimalConversions.h"
 
 int decimalToBinary(int D, int N)

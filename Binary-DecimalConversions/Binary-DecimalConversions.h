@@ -1,10 +1,3 @@
-//
-//  Binary-DecimalConversions.h
-//  Binary-DecimalConversions
-//
-//  Created by Luigi Meola on 01/11/23.
-//
-
 #ifndef Binary_DecimalConversions_h
 #define Binary_DecimalConversions_h
 

@@ -1,10 +1,3 @@
-//
-//  main.c
-//  Binary-DecimalConversions
-//
-//  Created by Luigi Meola on 01/11/23.
-//
-
 //Convertitore Decimale-Binario con numero di Bit
 #include <stdio.h>
 #include "Binary-DecimalConversions.h"
