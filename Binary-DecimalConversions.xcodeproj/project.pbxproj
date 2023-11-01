@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1BEC9C9F2AF1D3EB0004C5A3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC9C9E2AF1D3EB0004C5A3 /* main.c */; };
+		1BEC9CA72AF1D4410004C5A3 /* Binary-DecimalConversions.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC9CA62AF1D4410004C5A3 /* Binary-DecimalConversions.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		1BEC9C9B2AF1D3EB0004C5A3 /* Binary-DecimalConversions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Binary-DecimalConversions"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEC9C9E2AF1D3EB0004C5A3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		1BEC9CA52AF1D4410004C5A3 /* Binary-DecimalConversions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Binary-DecimalConversions.h"; sourceTree = "<group>"; };
+		1BEC9CA62AF1D4410004C5A3 /* Binary-DecimalConversions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Binary-DecimalConversions.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				1BEC9C9E2AF1D3EB0004C5A3 /* main.c */,
+				1BEC9CA52AF1D4410004C5A3 /* Binary-DecimalConversions.h */,
+				1BEC9CA62AF1D4410004C5A3 /* Binary-DecimalConversions.c */,
 			);
 			path = "Binary-DecimalConversions";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BEC9CA72AF1D4410004C5A3 /* Binary-DecimalConversions.c in Sources */,
 				1BEC9C9F2AF1D3EB0004C5A3 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
