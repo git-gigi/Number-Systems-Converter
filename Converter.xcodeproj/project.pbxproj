@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1BEC9C9F2AF1D3EB0004C5A3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC9C9E2AF1D3EB0004C5A3 /* main.c */; };
-		1BEC9CA72AF1D4410004C5A3 /* Binary-DecimalConversions.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC9CA62AF1D4410004C5A3 /* Binary-DecimalConversions.c */; };
+		1BEC9CA72AF1D4410004C5A3 /* conversions.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC9CA62AF1D4410004C5A3 /* conversions.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		1BEC9C9B2AF1D3EB0004C5A3 /* Binary-DecimalConversions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Binary-DecimalConversions"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEC9C9E2AF1D3EB0004C5A3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		1BEC9CA52AF1D4410004C5A3 /* Binary-DecimalConversions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Binary-DecimalConversions.h"; sourceTree = "<group>"; };
-		1BEC9CA62AF1D4410004C5A3 /* Binary-DecimalConversions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Binary-DecimalConversions.c"; sourceTree = "<group>"; };
+		1BEC9CA52AF1D4410004C5A3 /* conversions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = conversions.h; sourceTree = "<group>"; };
+		1BEC9CA62AF1D4410004C5A3 /* conversions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = conversions.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 		1BEC9C922AF1D3EB0004C5A3 = {
 			isa = PBXGroup;
 			children = (
-				1BEC9C9D2AF1D3EB0004C5A3 /* Binary-DecimalConversions */,
+				1BEC9C9D2AF1D3EB0004C5A3 /* Converter */,
 				1BEC9C9C2AF1D3EB0004C5A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,14 +57,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1BEC9C9D2AF1D3EB0004C5A3 /* Binary-DecimalConversions */ = {
+		1BEC9C9D2AF1D3EB0004C5A3 /* Converter */ = {
 			isa = PBXGroup;
 			children = (
 				1BEC9C9E2AF1D3EB0004C5A3 /* main.c */,
-				1BEC9CA52AF1D4410004C5A3 /* Binary-DecimalConversions.h */,
-				1BEC9CA62AF1D4410004C5A3 /* Binary-DecimalConversions.c */,
+				1BEC9CA52AF1D4410004C5A3 /* conversions.h */,
+				1BEC9CA62AF1D4410004C5A3 /* conversions.c */,
 			);
-			path = "Binary-DecimalConversions";
+			path = Converter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1BEC9C962AF1D3EB0004C5A3 /* Build configuration list for PBXProject "Binary-DecimalConversions" */;
+			buildConfigurationList = 1BEC9C962AF1D3EB0004C5A3 /* Build configuration list for PBXProject "Converter" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BEC9CA72AF1D4410004C5A3 /* Binary-DecimalConversions.c in Sources */,
+				1BEC9CA72AF1D4410004C5A3 /* conversions.c in Sources */,
 				1BEC9C9F2AF1D3EB0004C5A3 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +266,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BEC9C962AF1D3EB0004C5A3 /* Build configuration list for PBXProject "Binary-DecimalConversions" */ = {
+		1BEC9C962AF1D3EB0004C5A3 /* Build configuration list for PBXProject "Converter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BEC9CA02AF1D3EB0004C5A3 /* Debug */,

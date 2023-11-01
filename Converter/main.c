@@ -1,11 +1,11 @@
 //Convertitore Decimale-Binario con numero di Bit
 #include <stdio.h>
-#include "Binary-DecimalConversions.h"
+#include "conversions.h"
 
 int main (void)
 {
     int b;
-    printf("Inserisci 0 per convertire da decimale a binario, inserisci 1 per convertire da binario a decimale: \n");
+    printf("Opzioni: \n- 0 per convertire da decimale a binario;\n- 1 per convertire da binario a decimale;\n- 2 per convertire da decimale a esadecimale;\nInserisci numero: \t");
     scanf("%d", &b);
     scanf("%*c");
     
@@ -22,7 +22,7 @@ int main (void)
     {
         int i = 0;
         char c;
-        char binaryNum[BITMAX];
+        char binaryNum[MAX];
         printf("Inserisci numero binario: \n");
         
         do {
@@ -30,10 +30,24 @@ int main (void)
             binaryNum[i] = c;
             i++;
         } while (binaryNum[i-1] != '\n');
-        printf("%d\n", binaryToDecimal(binaryNum));
+        if (i <= MAX)
+            printf("Il numero decimale è: \n %d\n", binaryToDecimal(binaryNum));
+        else
+            printf("Numero binario troppo elevato!\n");
+    }
+    else if (b == 2)
+    {
+        int N;
+        printf("Inserisci un numero da convertire in esadecimale: \n");
+        scanf("%d", &N);
+        scanf("%*c");
+        
+        decimalToExadecimal(N);
     }
     else
         printf("Numero inserito non valido!");
+    
+    return 0;
 }
 
 
